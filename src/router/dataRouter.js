@@ -34,7 +34,7 @@ router.get("/getall", async (req, res) => {
   }
 });
 
-//API CALL TO GET ALL DATA
+//API CALL TO GET DATA BY ID
 
 router.get("/getById/:id", async (req, res) => {
   try {
